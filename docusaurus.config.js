@@ -123,20 +123,12 @@ export default async function createAsyncConfig() {
           searchPagePath: '/search',
         },
         announcementBar: {
-          id: "ai_agent_governance_kubecon",
-          content: '🛠️ How do you govern autonomous AI agents? Register for the AI Agent Governance Workshop @ KubeCon EU (March 23, 2026) <a href="https://link.tigera.io/umnHe">Learn more →</a>',
+          id: "calico_hackathon_deadline",
+          content: '🏃 Only one week left (Ends March 31, 2026!) Finalize your GitHub repo and demo video to enter the <a href="https://www.tigera.io/lp/project-calico-hackathon?utm_source=website&utm_medium=Docs_site&utm_campaign=Hackathon2026">Calico 3.30+ Hackathon</a>.',
           backgroundColor: "#FCE181",
           textColor: "#000",
           isCloseable: true,
         },
-        // DOCS-2862: Hackathon deadline approaching (go-live March 24)
-        // announcementBar: {
-        //   id: "calico_hackathon_deadline",
-        //   content: '🏃 Only one week left (Ends March 31, 2026!) Finalize your GitHub repo and demo video to enter the <a href="https://www.tigera.io/lp/project-calico-hackathon?utm_source=website&utm_medium=Docs_site&utm_campaign=Hackathon2026">Calico 3.30+ Hackathon</a>',
-        //   backgroundColor: "#FCE181",
-        //   textColor: "#000",
-        //   isCloseable: true,
-        // },
         navbar: {
           logo: {
             src: 'img/tigera-logo-2026-black-text.svg',
