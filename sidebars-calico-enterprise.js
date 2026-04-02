@@ -609,6 +609,7 @@ module.exports = {
           ],
         },
         'operations/native-v3-crds',
+        'operations/crd-migration',
         'operations/nftables',
         'operations/decommissioning-a-node',
         {
