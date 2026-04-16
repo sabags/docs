@@ -77,7 +77,7 @@ spec:
           kubernetes.io/metadata.name: default
 ```
 
-$[prodname] places the above resource in `kube-admin` tier.
+$[prodname] enforces Kubernetes `ClusterNetworkPolicy` resources with `spec.tier: Admin` in the `kube-admin` tier.
 
 In addition to `ClusterNetworkPolicy` resources, you can also add $[prodname] `NetworkPolicy`/`GlobalNetworkPolicy` resources
 to the kube-admin `Tier`. The `ClusterNetworkPolicy` `priority` field maps to the `order` field in the $[prodname]
@@ -98,7 +98,7 @@ spec:
   priority: 1
   subject:
     namespaces:
-      matchLabels: {} 
+      matchLabels: {}
   ingress:
   - name: deny-all-ingress
     action: "Deny"
@@ -107,7 +107,7 @@ spec:
         matchLabels: {}
 ```
 
-$[prodname] places the above resource in `kube-baseline` tier.
+$[prodname] places a Kubernetes `ClusterNetworkPolicy` with `spec.tier: Baseline`, like the one above, in the `kube-baseline` tier.
 
 In addition to the `ClusterNetworkPolicy` resource, you can also add $[prodname] `NetworkPolicy`/`GlobalNetworkPolicy` resources
 to the kube-baseline `Tier`. The `ClusterNetworkPolicy` `priority` field maps to the `order` field in the $[prodname]
