@@ -406,19 +406,19 @@ Start a free trial or request a demo to see Calico in action.
 
 ##### [Overview](https://docs.tigera.io/calico-cloud/free/overview)
 
-[Overview of Calico Cloud Free Tier](https://docs.tigera.io/calico-cloud/free/overview)
+[What Calico Cloud Free Tier includes and excludes versus paid Calico Cloud — limits, supported platforms, and the upgrade path to a paid subscription.](https://docs.tigera.io/calico-cloud/free/overview)
 
 ##### [Quickstart](https://docs.tigera.io/calico-cloud/free/quickstart)
 
-[Quickstart guide for Calico Cloud Free Tier.](https://docs.tigera.io/calico-cloud/free/quickstart)
+[Quickstart that connects a Kubernetes cluster to Calico Cloud Free Tier for centralized network observability — no payment or trial required.](https://docs.tigera.io/calico-cloud/free/quickstart)
 
 ##### [Connect a cluster](https://docs.tigera.io/calico-cloud/free/connect-cluster-free)
 
-[Securely connect your cluster to Calico Cloud Free Tier to access centralized network observability for your Kubernetes deployment.](https://docs.tigera.io/calico-cloud/free/connect-cluster-free)
+[Connect a Kubernetes cluster to Calico Cloud Free Tier so it reports network observability data to a Tigera-managed dashboard.](https://docs.tigera.io/calico-cloud/free/connect-cluster-free)
 
 ##### [Remove a cluster](https://docs.tigera.io/calico-cloud/free/disconnect-cluster-free)
 
-[Disconnect and remove your cluster from Calico Cloud Free Tier](https://docs.tigera.io/calico-cloud/free/disconnect-cluster-free)
+[Disconnect a Kubernetes cluster from Calico Cloud Free Tier and remove the Calico Cloud components it installed.](https://docs.tigera.io/calico-cloud/free/disconnect-cluster-free)
 
 ### Calico Cloud Free Tier
 
@@ -941,61 +941,61 @@ Requirements and guides for connecting your Kubernetes cluster to Calico Cloud.
 
 ##### [Calico Cloud architecture](https://docs.tigera.io/calico-cloud/get-started/cc-arch-diagram)
 
-[Understand the main components of Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/cc-arch-diagram)
+[Architecture overview of Calico Cloud — components that run in the connected cluster and the SaaS-side services they communicate with.](https://docs.tigera.io/calico-cloud/get-started/cc-arch-diagram)
 
 ##### [What happens when you connect a cluster to Calico Cloud](https://docs.tigera.io/calico-cloud/get-started/connect-cluster)
 
-[Get answers to your questions about connecting to Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/connect-cluster)
+[What happens when you connect a Kubernetes cluster to Calico Cloud — what is installed, what data leaves the cluster, and what changes in the cluster.](https://docs.tigera.io/calico-cloud/get-started/connect-cluster)
 
 ##### [System requirements](https://docs.tigera.io/calico-cloud/get-started/system-requirements)
 
-[Review cluster requirements to connect to Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/system-requirements)
+[Cluster, platform, and version requirements a Kubernetes cluster must meet before it can connect to Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/system-requirements)
 
 ##### [Prepare your cluster for Calico Cloud](https://docs.tigera.io/calico-cloud/get-started/prepare-cluster)
 
-[Prepare your cluster to install Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/prepare-cluster)
+[Prepare a Kubernetes cluster for connection to Calico Cloud — pre-flight checks, RBAC, and image-pull configuration.](https://docs.tigera.io/calico-cloud/get-started/prepare-cluster)
 
 ##### [Limitations and known issues for Windows nodes](https://docs.tigera.io/calico-cloud/get-started/windows-limitations)
 
-[Review limitations before starting installation.](https://docs.tigera.io/calico-cloud/get-started/windows-limitations)
+[Known limitations for Calico Cloud on Windows worker nodes that you should review before planning a connection.](https://docs.tigera.io/calico-cloud/get-started/windows-limitations)
 
 ## Connect your cluster[​](#connect-your-cluster)
 
 ##### [Install Calico Cloud](https://docs.tigera.io/calico-cloud/get-started/install-cluster)
 
-[Steps to connect your cluster to Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/install-cluster)
+[Connect a Kubernetes cluster to Calico Cloud using the standard install command from the management UI.](https://docs.tigera.io/calico-cloud/get-started/install-cluster)
 
 ##### [Set up a private registry](https://docs.tigera.io/calico-cloud/get-started/setup-private-registry)
 
-[Add images to a private registry for installing Calico Cloud on a cluster.](https://docs.tigera.io/calico-cloud/get-started/setup-private-registry)
+[Mirror Calico Cloud container images into a private registry so air-gapped clusters can install without reaching the public registry.](https://docs.tigera.io/calico-cloud/get-started/setup-private-registry)
 
 ##### [Install using a private registry](https://docs.tigera.io/calico-cloud/get-started/install-private-registry)
 
-[Steps to connect your cluster to Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/install-private-registry)
+[Connect a Kubernetes cluster to Calico Cloud when its container images must be pulled from a private registry.](https://docs.tigera.io/calico-cloud/get-started/install-private-registry)
 
 ##### [Install Calico Cloud as part of an automated workflow](https://docs.tigera.io/calico-cloud/get-started/install-automated)
 
-[Install Calico Cloud as part of an automated workflow.](https://docs.tigera.io/calico-cloud/get-started/install-automated)
+[Connect a Kubernetes cluster to Calico Cloud as part of an automated CI or provisioning workflow rather than the interactive UI flow.](https://docs.tigera.io/calico-cloud/get-started/install-automated)
 
 ##### [Prepare your cluster for Calico Cloud](https://docs.tigera.io/calico-cloud/get-started/prepare-cluster)
 
-[Prepare your cluster to install Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/prepare-cluster)
+[Prepare a Kubernetes cluster for connection to Calico Cloud — pre-flight checks, RBAC, and image-pull configuration.](https://docs.tigera.io/calico-cloud/get-started/prepare-cluster)
 
 ## Troubleshooting[​](#troubleshooting)
 
 ##### [Tigera Operator troubleshooting checklist](https://docs.tigera.io/calico-cloud/get-started/operator-checklist)
 
-[Additional troubleshooting for the Tigera Operator.](https://docs.tigera.io/calico-cloud/get-started/operator-checklist)
+[Troubleshoot the Tigera Operator on Calico Cloud connected clusters when the standard support checklist is not enough.](https://docs.tigera.io/calico-cloud/get-started/operator-checklist)
 
 ##### [Troubleshooting checklist](https://docs.tigera.io/calico-cloud/get-started/checklist)
 
-[Review this checklist before opening a Support ticket.](https://docs.tigera.io/calico-cloud/get-started/checklist)
+[Gather information and run pre-flight checks before opening a Calico Cloud support ticket so triage moves quickly.](https://docs.tigera.io/calico-cloud/get-started/checklist)
 
 ## Upgrade[​](#upgrade)
 
 ##### [Upgrade Calico Cloud](https://docs.tigera.io/calico-cloud/get-started/upgrade-cluster)
 
-[Steps to upgrade to the latest version of Calico Cloud.](https://docs.tigera.io/calico-cloud/get-started/upgrade-cluster)
+[Upgrade a connected Calico Cloud cluster to the latest released version of the in-cluster components.](https://docs.tigera.io/calico-cloud/get-started/upgrade-cluster)
 
 ### Calico Cloud architecture
 
@@ -7265,87 +7265,87 @@ Writing network policies is how you restrict traffic to pods in your Kubernetes 
 
 ##### [Policy best practices](https://docs.tigera.io/calico-cloud/network-policy/policy-best-practices)
 
-[Learn policy best practices for security, scalability, and performance.](https://docs.tigera.io/calico-cloud/network-policy/policy-best-practices)
+[Best practices for Calico Cloud policy across connected clusters — security posture, scalability with tiers, and performance tuning under load.](https://docs.tigera.io/calico-cloud/network-policy/policy-best-practices)
 
 ##### [Enable a default deny policy for Kubernetes pods](https://docs.tigera.io/calico-cloud/network-policy/beginners/kubernetes-default-deny)
 
-[Create a default deny network policy so pods that are missing policy are not allowed traffic until appropriate network policy is defined.](https://docs.tigera.io/calico-cloud/network-policy/beginners/kubernetes-default-deny)
+[Apply a default-deny network policy in a Calico Cloud connected cluster so unprotected pods are denied traffic until explicit policy is written.](https://docs.tigera.io/calico-cloud/network-policy/beginners/kubernetes-default-deny)
 
 ##### [Get started with Calico network policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-network-policy)
 
-[Create your first Calico network policies. Shows the rich features using sample policies that extend native Kubernetes network policy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-network-policy)
+[Write your first Calico Cloud NetworkPolicy — sample policies that exercise the rich rule features beyond Kubernetes NetworkPolicy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-network-policy)
 
 ##### [Get started with network sets](https://docs.tigera.io/calico-cloud/network-policy/networksets)
 
-[Learn the power of network sets and why you should create them.](https://docs.tigera.io/calico-cloud/network-policy/networksets)
+[Use Calico Cloud network sets to package frequently reused IP ranges or domains into named selectors that policies can reference across connected clusters.](https://docs.tigera.io/calico-cloud/network-policy/networksets)
 
 ##### [DNS policy](https://docs.tigera.io/calico-cloud/network-policy/domain-based-policy)
 
-[Use domain names to allow traffic to destinations outside of a cluster by their DNS names instead of by their IP addresses.](https://docs.tigera.io/calico-cloud/network-policy/domain-based-policy)
+[Allow traffic to external destinations by DNS name using Calico Cloud domain-based policy rules — without maintaining static IP lists.](https://docs.tigera.io/calico-cloud/network-policy/domain-based-policy)
 
 ## Policy rules[​](#policy-rules)
 
 ##### [Basic rules](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/policy-rules-overview)
 
-[Define network connectivity for Calico endpoints using policy rules and label selectors.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/policy-rules-overview)
+[How to write policy rules in Calico Cloud — label selectors, source and destination match criteria, and rule actions.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/policy-rules-overview)
 
 ##### [Use namespace rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/namespace-policy)
 
-[Use namespaces and namespace selectors in Calico network policy to group or separate resources. Use network policies to allow or deny traffic to/from pods that belong to specific namespaces.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/namespace-policy)
+[Group or separate workloads in Calico Cloud policy using namespaces and namespace selectors so policies apply only to specified namespaces.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/namespace-policy)
 
 ##### [Use service rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-policy)
 
-[Use Kubernetes Service names in policy rules.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-policy)
+[Match on Kubernetes Service names in Calico Cloud policy rules instead of specific pod selectors.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-policy)
 
 ##### [Use service accounts rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-accounts)
 
-[Use Kubernetes service accounts in policies to validate cryptographic identities and/or manage RBAC controlled high-priority rules across teams.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-accounts)
+[Match on Kubernetes service accounts in Calico Cloud policy rules to validate workload identity and apply RBAC-controlled rules.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-accounts)
 
 ##### [Use external IPs or networks rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/external-ips-policy)
 
-[Limit egress and ingress traffic using IP address either directly within Calico network policy or managed as Calico network sets.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/external-ips-policy)
+[Restrict egress and ingress to specific IP ranges in Calico Cloud policy, either inline or via reusable network sets.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/external-ips-policy)
 
 ##### [Use ICMP/ping rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/icmp-ping)
 
-[Control where ICMP/ping is used by creating a Calico network policy to allow and deny ICMP/ping messages for workloads and host endpoints.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/icmp-ping)
+[Allow or deny ICMP and ping traffic for Calico Cloud workloads and host endpoints using policy rules.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/icmp-ping)
 
 ## Policy tiers[​](#policy-tiers)
 
 ##### [Get started with policy tiers](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/tiered-policy)
 
-[Understand how tiered policy works and supports microsegmentation.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/tiered-policy)
+[How tiered policy works in Calico Cloud — evaluation order, pass actions, and using tiers to enforce microsegmentation across connected clusters.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/tiered-policy)
 
 ##### [Change allow-tigera tier behavior](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/allow-tigera)
 
-[Understand how to change the behavior of the allow-tigera tier.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/allow-tigera)
+[Customize the behavior of the allow-tigera tier that Calico Cloud installs by default to keep its own components reachable.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/allow-tigera)
 
 ##### [Network policy tutorial](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/policy-tutorial-ui)
 
-[Covers the basics of Calico Cloud network policy.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/policy-tutorial-ui)
+[Tutorial for the Calico Cloud policy management UI — author, order, and stage policies inside tiers from the web console.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/policy-tutorial-ui)
 
 ##### [Configure RBAC for tiered policies](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/rbac-tiered-policies)
 
-[Configure RBAC to control access to policies and tiers.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/rbac-tiered-policies)
+[Configure Kubernetes RBAC to control which users can edit Calico Cloud policies in each tier across connected clusters.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/rbac-tiered-policies)
 
 ## Policy for services[​](#policy-for-services)
 
 ##### [Apply Calico Cloud policy to Kubernetes node ports](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/kubernetes-node-ports)
 
-[Restrict access to Kubernetes node ports using Calico Cloud global network policy. Follow the steps to secure the host, the node ports, and the cluster.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/kubernetes-node-ports)
+[Restrict access to Kubernetes NodePort services using a Calico Cloud GlobalNetworkPolicy at the host endpoint.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/kubernetes-node-ports)
 
 ##### [Apply Calico Cloud policy to services exposed externally as cluster IPs](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/services-cluster-ips)
 
-[Expose Kubernetes service cluster IPs over BGP using Calico Cloud, and restrict who can access them using Calico Cloud network policy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/services-cluster-ips)
+[Expose Kubernetes Service ClusterIPs over BGP using Calico Cloud and restrict who can reach them with network policy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/services-cluster-ips)
 
 ## Policy for extreme traffic[​](#policy-for-extreme-traffic)
 
 ##### [Enable extreme high-connection workloads](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/high-connection-workloads)
 
-[Create a Calico network policy rule to bypass Linux conntrack for traffic to workloads that experience extremely large number of connections.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/high-connection-workloads)
+[Bypass Linux conntrack with a Calico Cloud policy rule for workloads that handle an extreme number of concurrent connections.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/high-connection-workloads)
 
 ##### [Defend against DoS attacks](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/defend-dos-attack)
 
-[Define DoS mitigation rules in Calico Cloud policy to quickly drop connections when under attack. Learn how rules use eBPF and XDP, including hardware offload when available.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/defend-dos-attack)
+[Define DoS mitigation rules in Calico Cloud policy that drop connections at the eBPF or XDP layer, with hardware offload when available.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/defend-dos-attack)
 
 ### Policy recommendations
 
@@ -7353,11 +7353,11 @@ Writing network policies is how you restrict traffic to pods in your Kubernetes 
 
 ## [📄️Enable policy recommendations](https://docs.tigera.io/calico-cloud/network-policy/recommendations/policy-recommendations)
 
-[Enable continuous policy recommendations to secure unprotected namespaces or workloads.](https://docs.tigera.io/calico-cloud/network-policy/recommendations/policy-recommendations)
+[Run continuous Calico Cloud policy recommendations so unprotected namespaces and workloads pick up baseline policy automatically.](https://docs.tigera.io/calico-cloud/network-policy/recommendations/policy-recommendations)
 
 ## [📄️Policy recommendations tutorial](https://docs.tigera.io/calico-cloud/network-policy/recommendations/learn-about-policy-recommendations)
 
-[Policy recommendations tutorial.](https://docs.tigera.io/calico-cloud/network-policy/recommendations/learn-about-policy-recommendations)
+[Tutorial walkthrough of the Calico Cloud policy recommendations engine — what it generates, how to review it, and how to promote it to enforced.](https://docs.tigera.io/calico-cloud/network-policy/recommendations/learn-about-policy-recommendations)
 
 ### Enable policy recommendations
 
@@ -8184,19 +8184,19 @@ Zero trust means that you do not trust anyone or anything. Calico Cloud handles 
 
 ## [📄️Get started with policy tiers](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/tiered-policy)
 
-[Understand how tiered policy works and supports microsegmentation.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/tiered-policy)
+[How tiered policy works in Calico Cloud — evaluation order, pass actions, and using tiers to enforce microsegmentation across connected clusters.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/tiered-policy)
 
 ## [📄️Network policy tutorial](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/policy-tutorial-ui)
 
-[Covers the basics of Calico Cloud network policy.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/policy-tutorial-ui)
+[Tutorial for the Calico Cloud policy management UI — author, order, and stage policies inside tiers from the web console.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/policy-tutorial-ui)
 
 ## [📄️Change allow-tigera tier behavior](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/allow-tigera)
 
-[Understand how to change the behavior of the allow-tigera tier.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/allow-tigera)
+[Customize the behavior of the allow-tigera tier that Calico Cloud installs by default to keep its own components reachable.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/allow-tigera)
 
 ## [📄️Configure RBAC for tiered policies](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/rbac-tiered-policies)
 
-[Configure RBAC to control access to policies and tiers.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/rbac-tiered-policies)
+[Configure Kubernetes RBAC to control which users can edit Calico Cloud policies in each tier across connected clusters.](https://docs.tigera.io/calico-cloud/network-policy/policy-tiers/rbac-tiered-policies)
 
 ### Get started with policy tiers
 
@@ -10243,19 +10243,19 @@ For help with Pass action rules, see [Get started with tiered policy](https://do
 
 ## [📄️Enable a default deny policy for Kubernetes pods](https://docs.tigera.io/calico-cloud/network-policy/beginners/kubernetes-default-deny)
 
-[Create a default deny network policy so pods that are missing policy are not allowed traffic until appropriate network policy is defined.](https://docs.tigera.io/calico-cloud/network-policy/beginners/kubernetes-default-deny)
+[Apply a default-deny network policy in a Calico Cloud connected cluster so unprotected pods are denied traffic until explicit policy is written.](https://docs.tigera.io/calico-cloud/network-policy/beginners/kubernetes-default-deny)
 
 ## [📄️Get started with Calico network policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-network-policy)
 
-[Create your first Calico network policies. Shows the rich features using sample policies that extend native Kubernetes network policy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-network-policy)
+[Write your first Calico Cloud NetworkPolicy — sample policies that exercise the rich rule features beyond Kubernetes NetworkPolicy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-network-policy)
 
 ## [📄️Calico Cloud automatic labels](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-labels)
 
-[Calico Cloud automatic labels for use with resources.](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-labels)
+[Reference list of automatic labels Calico Cloud attaches to resources, useful as selectors in policy rules.](https://docs.tigera.io/calico-cloud/network-policy/beginners/calico-labels)
 
 ## [📄️Calico Cloud for Kubernetes demo](https://docs.tigera.io/calico-cloud/network-policy/beginners/simple-policy-cnx)
 
-[Learn the extra features for Calico Cloud that make it so important for production environments.](https://docs.tigera.io/calico-cloud/network-policy/beginners/simple-policy-cnx)
+[Tour of the additional features Calico Cloud adds to Kubernetes policy that make it suitable for production environments.](https://docs.tigera.io/calico-cloud/network-policy/beginners/simple-policy-cnx)
 
 ## [🗃Policy rules](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/)
 
@@ -11254,27 +11254,27 @@ Now, let's enable access to the nginx service using a NetworkPolicy. This will a
 
 ## [📄️Basic rules](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/policy-rules-overview)
 
-[Define network connectivity for Calico endpoints using policy rules and label selectors.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/policy-rules-overview)
+[How to write policy rules in Calico Cloud — label selectors, source and destination match criteria, and rule actions.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/policy-rules-overview)
 
 ## [📄️Use namespace rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/namespace-policy)
 
-[Use namespaces and namespace selectors in Calico network policy to group or separate resources. Use network policies to allow or deny traffic to/from pods that belong to specific namespaces.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/namespace-policy)
+[Group or separate workloads in Calico Cloud policy using namespaces and namespace selectors so policies apply only to specified namespaces.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/namespace-policy)
 
 ## [📄️Use service accounts rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-accounts)
 
-[Use Kubernetes service accounts in policies to validate cryptographic identities and/or manage RBAC controlled high-priority rules across teams.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-accounts)
+[Match on Kubernetes service accounts in Calico Cloud policy rules to validate workload identity and apply RBAC-controlled rules.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-accounts)
 
 ## [📄️Use service rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-policy)
 
-[Use Kubernetes Service names in policy rules.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-policy)
+[Match on Kubernetes Service names in Calico Cloud policy rules instead of specific pod selectors.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/service-policy)
 
 ## [📄️Use external IPs or networks rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/external-ips-policy)
 
-[Limit egress and ingress traffic using IP address either directly within Calico network policy or managed as Calico network sets.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/external-ips-policy)
+[Restrict egress and ingress to specific IP ranges in Calico Cloud policy, either inline or via reusable network sets.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/external-ips-policy)
 
 ## [📄️Use ICMP/ping rules in policy](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/icmp-ping)
 
-[Control where ICMP/ping is used by creating a Calico network policy to allow and deny ICMP/ping messages for workloads and host endpoints.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/icmp-ping)
+[Allow or deny ICMP and ping traffic for Calico Cloud workloads and host endpoints using policy rules.](https://docs.tigera.io/calico-cloud/network-policy/beginners/policy-rules/icmp-ping)
 
 ### Basic rules
 
@@ -12077,11 +12077,11 @@ For more on the ICMP match criteria, see:
 
 ## [📄️Apply Calico Cloud policy to Kubernetes node ports](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/kubernetes-node-ports)
 
-[Restrict access to Kubernetes node ports using Calico Cloud global network policy. Follow the steps to secure the host, the node ports, and the cluster.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/kubernetes-node-ports)
+[Restrict access to Kubernetes NodePort services using a Calico Cloud GlobalNetworkPolicy at the host endpoint.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/kubernetes-node-ports)
 
 ## [📄️Apply Calico Cloud policy to services exposed externally as cluster IPs](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/services-cluster-ips)
 
-[Expose Kubernetes service cluster IPs over BGP using Calico Cloud, and restrict who can access them using Calico Cloud network policy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/services-cluster-ips)
+[Expose Kubernetes Service ClusterIPs over BGP using Calico Cloud and restrict who can reach them with network policy.](https://docs.tigera.io/calico-cloud/network-policy/beginners/services/services-cluster-ips)
 
 ### Apply Calico Cloud policy to Kubernetes node ports
 
@@ -12843,11 +12843,11 @@ For more detail about the relevant resources, see [GlobalNetworkSet](https://doc
 
 ## [📄️Enable and enforce application layer policies](https://docs.tigera.io/calico-cloud/network-policy/application-layer-policies/alp)
 
-[Enforce application layer policies in your cluster to configure access controls based on L7 attributes.](https://docs.tigera.io/calico-cloud/network-policy/application-layer-policies/alp)
+[Configure access controls based on Layer-7 attributes by enforcing Calico Cloud application-layer policy in connected clusters.](https://docs.tigera.io/calico-cloud/network-policy/application-layer-policies/alp)
 
 ## [📄️Application layer policy tutorial](https://docs.tigera.io/calico-cloud/network-policy/application-layer-policies/alp-tutorial)
 
-[Learn how to apply ALP to your workloads and control ingress traffic.](https://docs.tigera.io/calico-cloud/network-policy/application-layer-policies/alp-tutorial)
+[Step-by-step tutorial for applying Calico Cloud application-layer policy to workloads in a connected cluster — control ingress traffic by HTTP attributes.](https://docs.tigera.io/calico-cloud/network-policy/application-layer-policies/alp-tutorial)
 
 ### Enable and enforce application layer policies
 
@@ -13162,15 +13162,15 @@ We omitted the JSON formatting because we do not expect to get a valid JSON resp
 
 ## [📄️Determine the best Calico Cloud/Fortinet solution](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/overview)
 
-[Learn how to integrate Kubernetes clusters with existing Fortinet firewall workflows using Calico Cloud.](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/overview)
+[Integrate Kubernetes clusters with existing Fortinet firewall workflows using Calico Cloud — architecture, components, and what each side enforces.](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/overview)
 
 ## [📄️Extend Kubernetes to Fortinet firewall devices](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/firewall-integration)
 
-[Enable FortiGate firewalls to control traffic from Kubernetes workloads.](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/firewall-integration)
+[Use a FortiGate firewall to control egress traffic from Kubernetes workloads in a Calico Cloud connected cluster.](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/firewall-integration)
 
 ## [📄️Extend FortiManager firewall policies to Kubernetes](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/fortimgr-integration)
 
-[Extend FortiManager firewall policies to Kubernetes with Calico Cloud](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/fortimgr-integration)
+[Extend FortiManager firewall policies into Kubernetes workloads in a Calico Cloud connected cluster.](https://docs.tigera.io/calico-cloud/network-policy/policy-firewalls/fortinet-integration/fortimgr-integration)
 
 ### Determine the best Calico Cloud/Fortinet solution
 
@@ -14421,11 +14421,11 @@ For preDNAT policies, flow logs display the original destination IP and port bef
 
 ## [📄️Enable extreme high-connection workloads](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/high-connection-workloads)
 
-[Create a Calico network policy rule to bypass Linux conntrack for traffic to workloads that experience extremely large number of connections.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/high-connection-workloads)
+[Bypass Linux conntrack with a Calico Cloud policy rule for workloads that handle an extreme number of concurrent connections.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/high-connection-workloads)
 
 ## [📄️Defend against DoS attacks](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/defend-dos-attack)
 
-[Define DoS mitigation rules in Calico Cloud policy to quickly drop connections when under attack. Learn how rules use eBPF and XDP, including hardware offload when available.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/defend-dos-attack)
+[Define DoS mitigation rules in Calico Cloud policy that drop connections at the eBPF or XDP layer, with hardware offload when available.](https://docs.tigera.io/calico-cloud/network-policy/extreme-traffic/defend-dos-attack)
 
 ### Enable extreme high-connection workloads
 
@@ -19150,9 +19150,9 @@ To enable WAF on a Calico Ingress Gateway:
 
    To deploy a WAF on multiple gateways, you must create a separate `EnvoyExtensionPolicy` resource for each `Gateway` resource. Each `EnvoyExtensionPolicy` must reference the same `tigera-waf-backend` backend.
 
-3. To verify that the WAF is enabled for your gateway, you can simulate an SQL injection attack through your gateway and see whether it triggers a security event.
+3. To verify that the WAF is enabled for your gateway, you can simulate an SQL injection attack through your gateway and check that the WAF logs the request.
 
-   > **SECONDARY:** The query string in this example has some SQL syntax embedded in the text. This is harmless and for demo purposes, but WAF will detect this pattern and create an WAF log for this HTTP request.
+   > **SECONDARY:** The query string in this example has some SQL syntax embedded in the text. This is harmless and for demo purposes, but WAF will detect this pattern and create a WAF log for this HTTP request. By design, Calico Ingress Gateway WAF emits WAF logs rather than security events.
 
    1. Get the service IP of your gateway:
 
@@ -19160,13 +19160,13 @@ To enable WAF on a Calico Ingress Gateway:
       export GATEWAY_HOST=$(kubectl get gateway/<gateway-name> -o jsonpath='{.status.addresses[0].value}')
       ```
 
-   2. Trigger a security event by simulating an SQL injection attack on that service IP:
+   2. Simulate an SQL injection attack on that service IP:
 
       ```bash
       curl --verbose --header "Host: www.example.com" http://$GATEWAY_HOST/?artist=0+div+1+union%23foo*%2F*bar%0D%0Aselect%23foo%0D%0A1%2C2%2Ccurrent_user
       ```
 
-   3. From the web console, go to **Threat > Security Events** and check for a security event with corresponds with this simulated SQL injection attack.
+   3. In Kibana, select the `tigera_secure_ee_waf*` index pattern and look for a WAF log that corresponds with this request. If blocking mode is enabled, the `curl` command also returns a `403 Forbidden` response.
 
 ## Customizing your WAF configuration for an ingress gateway[​](#customizing-your-waf-configuration-for-an-ingress-gateway)
 
@@ -20365,6 +20365,225 @@ Get reports on Kubernetes workloads and environments for regulatory compliance. 
 ##### [Configure an outbound HTTP proxy](https://docs.tigera.io/calico-cloud/compliance/configure-http-proxy)
 
 [Configure an HTTP proxy to use for connections that leave the cluster](https://docs.tigera.io/calico-cloud/compliance/configure-http-proxy)
+
+### Istio Ambient Mode
+
+You can use Calico Cloud to deploy and manage an Istio service mesh on your cluster. Calico Cloud installs Istio in ambient mode, which conserves resources while providing the same robust mTLS encryption for your workloads.
+
+> **SECONDARY:** Istio Ambient Mode is a tech preview feature. Tech preview features are subject to significant changes before they become GA.
+
+## About Istio Ambient Mode[​](#about-istio-ambient-mode)
+
+Istio is a service mesh that manages and secures communication between microservices. Typically, Istio uses sidecar proxies that are deployed alongside every pod in the service mesh. At scale, running these sidecar proxies can be difficult to manage and a drain on resources.
+
+Istio Ambient Mode is a simplified service mesh architecture that removes the need for a sidecar proxy next to every pod. Instead, it uses node-level components for shared security and a layered approach for advanced traffic management. This design saves on computing resources and simplifies operations.
+
+## About Istio Ambient Mode on Calico[​](#about-istio-ambient-mode-on-calico)
+
+Calico Cloud provides a bundled version of Istio that can be installed and managed by the Tigera Operator.
+
+This integration automates the lifecycle of the Istio components to reduce manual configuration overhead. CVEs are addressed as part of the regular Calico Cloud patch release cadence. Administrators provision the Istio service mesh by defining a standard `Istio` custom resource.
+
+### The enhanced zTunnel proxy[​](#the-enhanced-ztunnel-proxy)
+
+The zTunnel component in Istio Ambient Mode is a lightweight proxy that runs on every node.
+
+Its main job is to handle encryption, authentication, and policy enforcement for traffic at Layer 4.
+
+A challenge in the original Istio Ambient Mode is that when traffic is routed through the zTunnel, it gets placed into a tunnel on a specific port (15008). This change makes it impossible for existing Layer 3 or Layer 4 network policies (like those from Calico) to see the original destination port of the traffic.
+
+Calico addresses this by using an enhanced zTunnel that is modified to preserve the original destination port. This modification allows existing Calico and Kubernetes network policies to continue functioning exactly as they did before, without needing any rewrites, even though the traffic is now encrypted with mTLS.
+
+These zTunnel enhancements are not compatible with Istio's application-layer Waypoint proxy. If you deploy Waypoint, the reported destination ports will follow the original behavior. Existing network policies need to be adapted to allow communication to port 15008.
+
+## Additional resources[​](#additional-resources)
+
+- [Overview of Istio ambient mode](https://istio.io/latest/docs/ambient/overview/).
+- [Ambient and Kubernetes NetworkPolicy](https://istio.io/latest/docs/ambient/usage/networkpolicy/)
+
+### Deploy Istio Ambient Mode on your cluster
+
+You can deploy Calico's bundled version of Istio in ambient mode to provide mTLS encryption to your workloads.
+
+> **SECONDARY:** Istio Ambient Mode is a tech preview feature. Tech preview features are subject to significant changes before they become GA.
+
+## Limitations[​](#limitations)
+
+- [Application layer network policies](https://docs.tigera.io/calico-cloud/network-policy/application-layer-policies/alp) are not compatible with the Istio service mesh.
+- Istio Ambient Mode does not work together with [workload-based web application firewalls](https://docs.tigera.io/calico-cloud/threat/web-application-firewall).
+- The service mesh is not supported for use on clusters that are also part of a [cluster mesh](https://docs.tigera.io/calico-cloud/multicluster/).
+- Destination ports are preserved only when Istio is deployed without Waypoint. If you deploy Waypoint, all traffic through Waypoint will show port 15008 as its destination port.
+- Connect-time load balancing is not compatible with Istio Ambient Mode.
+
+## Prerequisites[​](#prerequisites)
+
+- Calico Cloud is installed and managed by the Tigera Operator.
+
+## Install Istio in ambient mode on your cluster[​](#install-istio-in-ambient-mode-on-your-cluster)
+
+You can create an Istio service mesh in ambient mode by creating the `Istio` custom resource.
+
+- To install Istio in ambient mode, apply the `Istio` custom resource to your cluster:
+
+  ```bash
+  cat <<EOF | kubectl apply -f -
+
+  apiVersion: operator.tigera.io/v1
+
+  kind: Istio
+
+  metadata:
+
+   name: default
+
+  EOF
+  ```
+
+  > **SECONDARY:** To customize resource requirements for your Istio deployment, see the options available in the [installation API documentation](https://docs.tigera.io/calico-cloud/reference/installation/api).
+
+  To verify the installation:
+
+  ```bash
+  kubectl get tigerastatus
+  ```
+
+  Example output
+
+  ```shell
+  NAME AVAILABLE PROGRESSING DEGRADED SINCE
+
+  apiserver True False False 9m59s
+
+  calico True False False 9m4s
+
+  intrusion-detection True False False 5m39s
+
+  ippools True False False 10m
+
+  istio True False False 19s
+
+  log-collector True False False 8m34s
+
+  log-storage True False False 10m
+
+  log-storage-access True False False 4m24s
+
+  log-storage-dashboards True False False 4m58s
+
+  log-storage-elastic True False False 5m4s
+
+  log-storage-esmetrics True False False 4m54s
+
+  log-storage-kubecontrollers True False False 5m9s
+
+  log-storage-secrets True False False 10m
+
+  manager True False False 8m24s
+
+  monitor True False False 9m44s
+
+  policy-recommendation True False False 9m24s
+
+  tiers True False False 9m44s
+  ```
+
+  Now you can add your workloads to the Istio service mesh.
+
+## Add a workload to the Istio service mesh[​](#add-a-workload-to-the-istio-service-mesh)
+
+You can add workloads to the mesh by labeling them. Communication between labelled namespaces and pods goes through the mesh and uses mTLS encryption.
+
+> **WARNING:** Don't label Calico Cloud resources to add them to the service mesh. Doing this can cause interruptions and failure to your cluster network.
+>
+> If you want to secure Calico Cloud components, see [Secure Calico component communications](https://docs.tigera.io/calico-cloud/operations/comms/).
+
+1. To add workloads to your Istio service mesh, add the `istio.io/dataplane-mode=ambient` label to a pod or namespace resource:
+
+   Adding a namespace to the Istio service mesh
+
+   ```bash
+   kubectl label namespace <namespace> istio.io/dataplane-mode=ambient
+   ```
+
+   Replace `<namespace>` with the namespace you want to include in the mesh.
+
+   Adding a pod to the Istio service mesh
+
+   ```bash
+   kubectl label pod --namespace=<namespace> <pod> istio.io/dataplane-mode=ambient
+   ```
+
+   Replace the following:
+
+   - `<pod>`: The name of the pod you want to include in the mesh.
+   - `<namespace>`: The namespace your pod is in.
+
+## Removing Istio[​](#removing-istio)
+
+If you want to remove Istio, first remove the labels you applied to pods and namespaces. When that's done, you can delete the `Istio` custom resource.
+
+1. Remove the label from namespaces and pods by running the following commands:
+
+   ```bash
+   kubectl label namespaces --all istio.io/dataplane-mode=ambient-
+
+   kubectl label pods --all --all-namespaces istio.io/dataplane-mode=ambient-
+   ```
+
+2. Remove the `Istio` custom resource:
+
+   ```bash
+   kubectl delete istio.operator.tigera.io default
+   ```
+
+## Troubleshooting commands[​](#troubleshooting-commands)
+
+Check whether Istio pods are deployed:
+
+```bash
+kubectl get pods -n calico-system | grep 'istio\|ztunnel'
+```
+
+Check whether Istio CRDs are deployed:
+
+```bash
+kubectl get crd | grep istio
+```
+
+Check which pods and namespaces are in the mesh:
+
+- Requires [istioctl](https://istio.io/latest/docs/ops/diagnostic-tools/istioctl/).
+
+```bash
+istioctl ztunnel-config workloads -n calico-system
+```
+
+Check for errors logged by the zTunnel component:
+
+```bash
+ZTUNNEL_PODS=$(kubectl get pod -n calico-system \
+
+ -l app.kubernetes.io/name=ztunnel \
+
+ -o jsonpath='{.items[*].metadata.name}')
+
+for P in $ZTUNNEL_PODS; do
+
+ echo "--- Checking logs for pod: $P ---"
+
+ kubectl logs $P -n calico-system 2>/dev/null | \
+
+ grep -i error | \
+
+ grep -i app1
+
+done
+```
+
+## Additional resources[​](#additional-resources)
+
+- [Overview of Istio ambient mode](https://istio.io/latest/docs/ambient/overview/).
+- [Configuration options](https://docs.tigera.io/calico-cloud/reference/installation/api).
 
 ### Enable compliance reports
 
@@ -21756,13 +21975,17 @@ You can specify core configuration elements of your ingress gateway by specifyin
 
 Many customizations are available for the `GatewayAPI` resource. This resource has fields that allow some aspects of Gateway deployments to be customized. For example:
 
-- `spec.gatewayDeployment.spec.template.metadata` allows arbitrary labels or annotations to be added to the pod that is created to implement each configured Gateway.
-- `spec.gatewayDeployment.spec.template.spec.nodeSelector` allows control over where gateway implementation pods are scheduled.
-- `spec.gatewayDeployment.spec.template.spec.containers` allows control over the memory and CPU that the gateway implementation pods can use.
 - `spec.gatewayControllerDeployment.spec.template.spec.nodeSelector` allows control over where the gateway controller is scheduled.
-- `spec.gatewayDeployment.service.metadata.annotations` allows control over annotations to place on the service that is provisioned for each Gateway; these can be used, for example, to configure the cloud-specific type and properties of the associated external load balancer.
-- `spec.gatewayDeployment.service.spec.*loadbalancer*` allows control over the corresponding `*loadbalancer*` fields in the service that is provisioned for each gateway; in some clouds these can also be used to configure the type and properties of the associated external load balancer.
-- `spec.gatewayClasses` allows the provisioning of multiple `GatewayClass` resources, each with its own set of customizations, instead of the single `tigera-gateway-class` gateway class that the Tigera Operator provisions by default.
+
+- `spec.gatewayClasses` allows the provisioning of multiple `GatewayClass` resources, each with its own set of customizations, instead of the single `tigera-gateway-class` gateway class that the Tigera Operator provisions by default. Possible `GatewayClass` customizations include the following:
+
+  <!-- -->
+
+  - `gatewayDeployment.spec.template.metadata` allows arbitrary labels or annotations to be added to the pod that is created to implement each Gateway within that class.
+  - `gatewayDeployment.spec.template.spec.nodeSelector` allows control over where gateway implementation pods are scheduled.
+  - `gatewayDeployment.spec.template.spec.containers` allows control over the memory and CPU that the gateway implementation pods can use.
+  - `gatewayService.metadata.annotations` allows control over annotations to place on the service that is provisioned for each Gateway; these can be used, for example, to configure the cloud-specific type and properties of the associated external load balancer.
+  - `gatewayService.spec.*loadBalancer*` allows control over the corresponding `*loadBalancer*` fields in the service that is provisioned for each gateway; in some clouds these can also be used to configure the type and properties of the associated external load balancer.
 
 For full details, see [the `GatewayAPI` reference documentation](https://docs.tigera.io/calico-cloud/reference/installation/api#gatewayapi).
 
@@ -62579,6 +62802,14 @@ To configure notifications, click the user icon  **> Notifications**.
 
 ### New features and enhancements[​](#new-features-and-enhancements-1)
 
+#### Istio Ambient Mode (tech preview)[​](#istio-ambient-mode-tech-preview)
+
+Calico Cloud now provides a bundled version of Istio in ambient mode, a sidecarless architecture that delivers robust mTLS encryption and service mesh security while significantly reducing resource consumption and operational overhead. This implementation, managed by the Tigera Operator, features an enhanced zTunnel proxy that preserves original destination ports so existing Calico and Kubernetes network policies continue to function seamlessly without requiring rewrites.
+
+For more information, see [Istio Ambient Mode](https://docs.tigera.io/calico-cloud/compliance/istio/about-istio-ambient).
+
+#### Enhancements[​](#enhancements)
+
 - Enhancements to to Calico Cloud dashboards.
 
 ## February 5, 2026 (web console update)
@@ -62613,7 +62844,7 @@ Calico Cloud's built-in observability dashboards are now generally available. Th
 
 For more information, see [Dashboards](https://docs.tigera.io/calico-cloud/observability/dashboards).
 
-#### Enhancements[​](#enhancements)
+#### Enhancements[​](#enhancements-1)
 
 - Added various user experience improvements to dashboards in the web console.
 
@@ -62687,7 +62918,7 @@ This release includes support for HTTP header-based matching for application lay
 
 For more information, see [Global network policy](https://docs.tigera.io/calico-cloud/reference/resources/globalnetworkpolicy#httpheadermatch).
 
-#### Enhancements[​](#enhancements-1)
+#### Enhancements[​](#enhancements-2)
 
 - To support a minimal footprint and simplify resource management, the API server component and its associated resources have been moved from the `tigera-system` namespace to the `calico-system` namespace.
 
@@ -62743,7 +62974,7 @@ For more information, see [Webhooks for security event alerts](https://docs.tige
 
 You can now use the web console to view details of the default rule set used by Web Application Firewall. From the **Web Application Firewall** page, click the **Rulesets** tab to open a list of default rules.
 
-#### Enhancements[​](#enhancements-2)
+#### Enhancements[​](#enhancements-3)
 
 - Added web console support for `AdminNetworkPolicy` and `BaseAdminNetworkPolicy` tiers (view-only).
 - Performance and user experience improvements to custom dashboards.
@@ -62865,7 +63096,7 @@ Calico Cloud now extends its IPAM capabilities to support service LoadBalancer I
 
 For more information, see [LoadBalancer IP address management](https://docs.tigera.io/calico-cloud/networking/ipam/service-loadbalancer).
 
-#### Enhancements[​](#enhancements-3)
+#### Enhancements[​](#enhancements-4)
 
 - We improved how the web console performs in cases where there are a large number of policy tiers for managed clusters. To see these optimizations, make sure your managed clusters are running Calico Cloud 21.0.0 or later.
 
@@ -62966,7 +63197,7 @@ Calico Cloud includes improvements so that early network configuration will be s
 
 For more information see [Deploy a dual ToR cluster](https://docs.tigera.io/calico-cloud/networking/configuring/dual-tor).
 
-#### Enhancements[​](#enhancements-4)
+#### Enhancements[​](#enhancements-5)
 
 - Guardian will respect HTTP proxy environment variables when set on the deployment by mutating webhook configurations.
 - Enhanced filtering options in the endpoints page of the web console.
@@ -62988,7 +63219,7 @@ For more information see [Deploy a dual ToR cluster](https://docs.tigera.io/cali
 
 In this release, you can more easily manage your Image Assurance scan results by deleting results you don't need. On the **All Scan Results** page, select the checkbox next to result item, and then click **Actions > Delete**. You can also select multiple results and delete them as a bulk action.
 
-#### Enhancements[​](#enhancements-5)
+#### Enhancements[​](#enhancements-6)
 
 - Various detector improvements, including better handling of historical data and a detector export function.
 - Improved webhooks with ability to send global alerts.
@@ -63018,7 +63249,7 @@ For more information, see [Exclude a process from Security Events alerts](https:
 
 Image Assurance scans results now include information using the [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/). EPSS scores help you determine the likelihood that a given vulnerability will be exploited in the near future. Being able to view this information and filter scan results by EPSS score can help you judge the risk of vulnerabilities and prioritize your remediation efforts.
 
-#### Enhancements[​](#enhancements-6)
+#### Enhancements[​](#enhancements-7)
 
 - Functional and performance improvements to Image Assurance scan results filtering.
 
@@ -63315,7 +63546,7 @@ We've added a new default mode for WAF that is monitor/event only. This allows o
 
 For more information, see [Web application firewall](https://docs.tigera.io/calico-cloud/threat/web-application-firewall).
 
-#### Enhancements[​](#enhancements-7)
+#### Enhancements[​](#enhancements-8)
 
 - You can now remove disconnected clusters from the list of managed clusters. See [Cluster management](https://docs.tigera.io/calico-cloud/operations/cluster-management#remove-a-cluster).
 
